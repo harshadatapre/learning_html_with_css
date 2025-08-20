@@ -1,0 +1,30 @@
+.t_uppercase {
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: underline;
+}
+
+.t_lowercase {
+    text-transform: lowercase;
+    color: red;
+    text-decoration: overline;
+}
+
+.t_capitalize {
+    text-transform: capitalize;
+    color: rgb(202, 189, 35);
+}
+
+.t_center {
+    text-align: center;
+}
+
+.t_right {
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.f_size {
+    font-size: 50px;
+}
+
