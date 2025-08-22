@@ -1,0 +1,11 @@
+.box_shadow {
+    box-shadow: 4px 5px 8px brown;
+    height:400px;
+    width:500px;
+}
+
+.drop_shadow {
+    filter: drop-shadow(4px 5px 8px gold);
+    height:400px;
+    width:500px;
+}
