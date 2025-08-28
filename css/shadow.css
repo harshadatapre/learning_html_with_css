@@ -1,11 +1,59 @@
+/* box shadow */
+
 .box_shadow {
     box-shadow: 4px 5px 8px brown;
     height:400px;
     width:500px;
+    margin: 50px;
 }
 
-.drop_shadow {
-    filter: drop-shadow(4px 5px 8px gold);
+.box_shadow2 {
+    box-shadow:4px 5px 8px yellow;
     height:400px;
     width:500px;
+    margin: 50px;
+}
+
+.box_shadow3 {
+    box-shadow: 4px 5px 8px black;
+    height:400px;
+    width:500px;
+    margin: 50px;
+} 
+
+.box_shadow4 {
+    box-shadow: 4px 5px 8px olivedrab;
+    height:400px;
+    width:500px;
+    margin: 50px;
+}
+
+/* drop shadow */
+
+.drop_shadow {
+    filter: drop-shadow(4px 5px 8px black);
+    height:400px;
+    width:600px;
+    margin: 50px;
+}
+
+.drop_shadow2 {
+    filter: drop-shadow(4px 5px 8px blue);
+    height:800px;
+    width:600px;
+    margin: 50px;
+}
+
+.drop_shadow3 {
+    filter: drop-shadow(4px 5px 8px pink);
+    height:400px;
+    width:600px;
+    margin: 50px;
+}
+
+.drop_shadow4 {
+    filter: drop-shadow(4px 5px 8px red);
+    height:400px;
+    width:600px;
+    margin: 50px;
 }

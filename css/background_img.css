@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/flowers_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+p {
+    color: white;
+    background-color: #15141430;
+    border: solid white;
+    padding: 20px;
+    font-size: 20px;
+    margin: 25px;
+    font-family:'Times New Roman', Times, serif
+}
