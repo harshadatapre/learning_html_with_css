@@ -1,0 +1,13 @@
+.items {
+    height: 150px;
+    width: 200px;
+    margin: 20px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
