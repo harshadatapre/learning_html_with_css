@@ -1,0 +1,62 @@
+
+/* translate()  - Button slide or image move
+   scale() - zoom in/out on hover
+   rotate() - spinning icons or logos
+   skew() - creative headings or banners
+   multiple - animated cards or hover effects */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.box {
+    background-color: darkorange;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    transition: transform 2s ease 500ms; /* property time_to_complete_transiton type delay*/ /* ease-in ease-out ease-in-out linear*/
+}
+
+.box1:hover {
+    transform: translate(125px, 125px);
+}
+
+.box2:hover {
+    transform: translateX(125px);
+}
+
+.box3:hover {
+    transform: translateY(125px);
+}
+
+.box4:hover {
+    transform: rotateY(125deg);
+}
+
+.box5:hover {
+    transform: skew(50deg);
+}
+
+.box6:hover {
+    transform: skewX(50deg);
+}
+
+.box7:hover {
+    transform: skewY(50deg);
+}
+
+.box8:hover {
+    transform: scale(2);
+}
+
+.box9:hover {
+    transform: rotateY(120deg) translateX(50px) scale(1.4);
+}
+

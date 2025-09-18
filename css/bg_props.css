@@ -1,0 +1,37 @@
+div {
+    height: 500px;
+    font-size: 50px;
+}
+
+.linear {
+    text-align: center;
+    border: 2px solid black;
+    background: linear-gradient(#1E2A38, #4AB6E6, #F5F5DC, #FF6B6B);
+}
+
+.linear2 {
+    text-align: center;
+    border: 2px solid black;
+    /* (default - to bottom), to left, to top, to right */
+    background: linear-gradient(to right, #333333, #B76E79);
+}
+
+.radial {
+    border: 2px solid black;
+    background: radial-gradient(#333333, #B76E79, #FDF6F0);
+}
+
+.radial2 {
+    text-align: center;
+    padding: 15px;
+    border-radius: 50%;
+    /*at center is default, at top right, at top left, at bottom left, at bottom right, at 40% 70% (custom x/y positions) 
+    top, bottom, left, right*/
+    background: radial-gradient(at top left, #FF6B6B, #FFA07A, #FFD700, #FFF8DC);
+}
+
+.conic {
+    /* same as radial,  */
+    background: conic-gradient(red, orange, yellow, lightyellow);
+}
+
